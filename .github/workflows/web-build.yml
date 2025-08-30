@@ -23,9 +23,3 @@ jobs:
 
       - name: Build Expo Web
         run: npm run web-build
-
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: web-build
-          path: web-build/
